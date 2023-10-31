@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="nav">
+            <div class="container-fluid">
+                <div class="logo">
+                    <a href="#"><img src="./assets/imagenes/logo-anice.png" alt=""></a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Ubicacion</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="home">
+    </section>
+
+
+
+    <div class="container-fluid ctr-img-home d-flex justify-content-center">
+
+        <div class="row fila">
+            <div class="col columna">
+                <h2 class="fs-1 text-secondary text-center">Pasteleria</h2><img
+                    src="./assets/imagenes/720x720/macarrons-home.png" alt="" class="img-grid">
+            </div>
+            <div class="col columna">
+                <h2 class="fs-1 text-secondary text-center">Tartas</h2> <img
+                    src="./assets/imagenes/720x720/tarta-home.png" alt="" class="img-grid">
+            </div>
+            <div class="col columna">
+                <h2 class="fs-1 text-secondary text-center">Tortas</h2><img
+                    src="./assets/imagenes/720x720/torta-home.png" alt="" class="img-grid">
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- CARROUSEL -->
+    
+    <div id="carouselExampleCaptions" class="carousel slide container">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+    
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/imagenes/1280x720 editadas/tiramisu.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block fs-1">
+                    <p class="nombre-fondo d-none d-lg-block d-print-block">Anice</p>
+                    <h2>NUETRAS PASTELERIA</h2>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/imagenes/1280x720 editadas/2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block fs-1 ">
+                    <p class="nombre-fondo d-none d-lg-block d-print-block">Anice</p>
+                    <h2>NUETRAS TARTAS</h2>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+    
+                <img src="./assets/imagenes/1280x720 editadas/tortas.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block fs-1">
+                    <p class="nombre-fondo d-none d-lg-block d-print-block">Anice</p>
+                    <h2>NUESTRAS TORTAS</h2>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-footer">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="#" class="enlace-footer">Inicio</a></li>
+                        <li><a href="#" class="enlace-footer">Productos</a></li>
+                        <li><a href="#" class="enlace-footer">Nosotros</a></li>
+                        <li><a href="#" class="enlace-footer">Nuestro local</a><i class="bi bi-geo-alt-fill"></i></li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-footer">
+                    <h3>Contacto</h3>
+                    <p class="enlace-footer">Correo electrónico: info@mail.com</p>
+                    <p class="enlace-footer">Teléfono: 0351- 123456</p>
+                </div>
+                <div class="col-lg-4 col-footer">
+                    <!-- <h3>Nuestras redes</h3> -->
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <i class="bi bi-whatsapp d-flex"></i>
+    </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+
+        $('.navTrigger').click(function () {
+            $(this).toggleClass('active');
+            console.log("Clicked menu");
+            $("#mainListDiv").toggleClass("show_list");
+            $("#mainListDiv").fadeIn();
+
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
